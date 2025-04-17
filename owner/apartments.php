@@ -264,6 +264,11 @@ nav {
     
     <div class="container">
         <h1 class="page-title">Available Apartments</h1>
+        <?php if (isset($_GET['apartment_posted']) && $_GET['apartment_posted'] === 'success'): ?>
+    <div style="background-color: #d4edda; color: #155724; padding: 1rem; border-radius: 5px; margin: 1rem 0;">
+        Apartment posted successfully!
+    </div>
+<?php endif; ?>
         <?php if (isset($_GET['error']) && $_GET['error'] === 'already_booked'): ?>
     <div style="background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; padding: 1rem; margin-bottom: 2rem; border-radius: 5px;">
         This apartment is already booked. Please choose another one.

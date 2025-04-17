@@ -211,7 +211,7 @@ nav {
         <div class="nav-links">
         <a href="tenant_dashboard.php"><i class="fas fa-building"></i> Home</a>
             <a href="apartments.php"><i class="fas fa-building"></i> Apartments</a>
-            <a href="bookings.php"><i class="fas fa-calendar-check"></i> My Bookings</a>
+            <a href="my_bookings.php"><i class="fas fa-calendar-check"></i> My Bookings</a>
             <a href="about.php"><i class="fas fa-info-circle"></i> About Us</a>
             <a href="contact.php"><i class="fas fa-envelope"></i> Contact</a>
             <a href="../login.php" class="logout"><i class="fas fa-sign-out-alt"></i> Logout</a>

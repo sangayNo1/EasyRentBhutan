@@ -169,6 +169,14 @@
         <label for="phone">Phone Number</label>
         <input type="text" id="phone" name="phone" required />
       </div>
+      <div class="form-group">
+        <label for="role">I am a</label>
+        <select id="role" name="role" required>
+          <option value="">Select Role</option>
+          <option value="tenant">Tenant</option>
+          <option value="owner">Property Owner</option>
+        </select>
+      </div>
       <button type="submit" class="signup-button">Sign Up</button>
     </form>
     <div class="login-link">

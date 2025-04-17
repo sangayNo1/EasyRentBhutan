@@ -28,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt->execute([$owner_id, $title, $location, $rooms, $rent_amount, $additional_description]);
         
         // Redirect back to owner apartments page
-        header("Location: ../owner/owner_appartments.php");
+        header("Location: ../owner/owner_appartments.php?apartment_posted=success");
         exit();
         
     } catch (PDOException $e) {
